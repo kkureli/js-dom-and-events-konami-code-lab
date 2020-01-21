@@ -33,8 +33,7 @@ In `index.html`, you'll see that we're loading the file in for you:
 
 This is JavaScript's way of pulling in code from outside the page. Here, we've
 given the `<script>` tag a local source (the file that's right here in the
-directory), but we could also supply a URL to load an external resource (more on
-that in a bit).
+directory), but we could also supply a URL to load an external resource.
 
 You'll want to attach an event listener to `document.body` and check for
 `'keydown'` events. If the user enters this special code, pressing all ten of
