@@ -1,12 +1,21 @@
+let i = 0
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
     // up, up, down, down, left, right, left, right, b, a
 function arrayCheck(a, b) {
     for (let index = 0; index < a.length; index++) {
-        if (a[index] === b[index]) {
-            return true;
-        } else { return false }
+        if (a[index] !== b[index]) {
+            i = 1
+        }
+
+
+    }
+    if (i === 0) {
+        return true
+    } else {
+        return false
     }
 }
+
 
 function init() {
     // Write your JavaScript code inside the init() function
